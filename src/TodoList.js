@@ -11,7 +11,7 @@ const TodoList = () =>{
                 setTodos(todos => [...todos.slice(0,index),...todos.slice(index + 1)])
             } key={index}>{todo}</li>)}
         </ul>
-        <input onKeyDown={evt => {
+        <input placeholder="Enter Task" onKeyDown={evt => {
                 if (evt.key === "Enter") {
                     setTodos(todos => [...todos, todoInputValue]);
                     setTodoInputValue("")

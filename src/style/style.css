@@ -1,0 +1,23 @@
+li {
+  list-style-type: square;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12;
+  font-style: italic;
+}
+
+div {
+  margin: 50px,50px,50px,50px;
+}
+
+#app {
+  margin: 50px,50px,50px,50px;
+  background-color: #D3BBBB;
+  width: 500px;
+}
+
+input {
+  background-color: #F3F3F3;
+  width: 500px;
+}
+/*# sourceMappingURL=style.css.map */
